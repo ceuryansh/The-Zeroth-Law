@@ -1,0 +1,448 @@
+head{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	width: 100%;
+	position: relative;
+	overflow-x: hidden;
+}
+.topnav{
+	overflow: hidden;
+	background-color: #6E260E;
+	opacity: .75;
+	width: 1920px;
+	height: 96px;
+	border: none;
+}
+.topnav a:hover {
+  color: #E1C16E;
+  opacity: .5;
+}
+img{
+	position: absolute;
+	left: 10px;
+	top: 0px;
+	display: inline;
+}
+.Menu1 {
+	position: absolute;
+	left: 564px;
+	top: 24px;
+	display: inline;
+	color: #E7DDCA;	
+	text-align: center;
+	text-decoration: none;
+	font-family: Quicksand;
+	font-size: 40px;
+	line-height: 48px;
+}
+.Menu2 {
+	position: absolute;
+	left: 804px;
+	top: 24px;
+	display: inline;
+	color: #E7DDCA;	
+	text-align: center;
+	text-decoration: none;
+	font-family: Quicksand;
+	font-size: 40px;
+	line-height: 48px;
+}
+.Menu3 {
+	position: absolute;
+	left: 1099px;
+	top: 24px;
+	display: inline;
+	color: #E7DDCA;	
+	text-align: center;
+	text-decoration: none;
+	font-family: Quicksand;
+	font-size: 40px;
+	line-height: 48px;
+}
+.Menu4 {
+	position: absolute;
+	left: 1355px;
+	top: 24px;
+	display: inline;
+	color: #E7DDCA;	
+	text-align: center;
+	text-decoration: none;
+	font-family: Quicksand;
+	font-size: 40px;
+	line-height: 48px;
+}
+.Menu5 {
+	position: absolute;
+	left: 1675px;
+	top: 24px;
+	display: inline;
+	color: #E7DDCA;	
+	text-align: center;
+	text-decoration: none;
+	font-family: Quicksand;
+	font-size: 40px;
+	line-height: 48px;
+}
+#Zero{
+	position: absolute;
+	left: 120px;
+	top: 6px;
+	display: inline;
+	color: #E7DDCA;
+	text-align: center;
+	padding: 0px 25px;
+	text-decoration: none;
+	font-family: Delicious Handrawn;
+	font-size: 64px;
+}
+#Detective_Zero{
+	position: absolute;
+	left: 73px;
+	display: inline;
+	color: #5C4033;
+	text-align: center;
+	text-decoration: underline;
+	text-underline-position: under;
+	font-family: Cinzel;
+	font-size: 50px;
+}
+#Chapter_1{
+	position: absolute;
+	left: 252px;
+	display: inline;
+	color: #5C4033;
+	text-align: center;
+	text-decoration: underline;
+	text-underline-position: under;
+	font-family: Cinzel;
+	font-size: 51px;
+}
+.column1{
+	position: absolute;
+	left: 0px;
+	top: 96px;
+	width: 1146px;
+	height: 984px;
+	padding: none;
+	background-color: rgba(234, 221, 202, 0.5);
+}
+.column2{
+	position: absolute;
+	left: 1146px;
+	top: 96px;
+	width: 774px;
+	height: 984px;
+	padding: none;
+	text-align: center;
+  background-color: rgba(225, 193, 110, 0.5);
+}
+#columna{
+	position: relative;
+	left: 73px;
+	top: 140px;
+	width: 531px;
+	height: 684px;
+	padding: none;
+	background-color: #EADDCA;
+	font-family: Didact Gothic;
+}
+#columnb{
+	position: absolute;
+	left: 695px;
+	top: 140px;
+	width: 531px;
+	height: 684px;
+	padding: none;
+	background-color: #EADDCA;
+	font-family: Didact Gothic;
+}
+#columnc{
+	position: absolute;
+	left: 1317px;
+	top: 140px;
+	width: 531px;
+	height: 684px;
+	padding: none;
+	background-color: #EADDCA;
+	font-family: Didact Gothic;
+}	
+#column1Des{
+	position: absolute;
+	left: 73;
+	text-align: center;
+	font-family: Didact Gothic;
+	font-size: 36px;
+	margin-left: 73px;
+	margin-right: 73px;
+}
+#column2Des{
+	position: absolute;
+	text-align: center;
+	font-family: Didact Gothic;
+	font-size: 21px;
+	margin-left: 62px;
+	margin-right: 62px;
+}
+.Play_Now{
+	position: absolute;
+	background-color: rgba(165, 42, 42, 0.75);
+	color: rgba(234, 221, 202, 0.75);
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  font-family: Didact Gothic;
+  left: 197px;
+  top: 800px;
+  width: 381px;
+  height: 63px;
+  transition-duration: 0.4s;
+}
+.Play_Now:hover{
+	background-color: #5C4033;
+	color: #EADDCA;
+}
+.bottom_columns{
+	position: absolute;
+	overflow: ;
+	background-color: #6F4E37;
+	left: 0px;
+	top: 1080px;
+	width: 1920px;
+	height: 992px;
+	border: none;
+}
+#Chapters{
+	position: absolute;
+	left: 136px;
+	display: inline;
+	color: #6F4E37;
+	text-align: center;
+	font-family: Cinzel;
+	font-size: 50px;
+}
+.Chapter_X1{
+	position: absolute;
+	background-color: #6F4E37;
+	color: #EADDCA;
+	display: block;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Didact Gothic;
+  left: 57px;
+  top: 157px;
+  width: 417px;
+  height: 70px;
+  transition-duration: 0.4s;
+}
+.Chapter_X1:hover{
+	background-color: rgba(225, 193, 110, 0.5);
+	color: rgba(165, 42, 42, 0.75);
+}
+.Chapter_X2{
+	position: absolute;
+	background-color: #6F4E37;
+	color: #EADDCA;
+	display: block;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Didact Gothic;
+  left: 57px;
+  top: 250px;
+  width: 417px;
+  height: 70px;
+  transition-duration: 0.4s;
+}
+.Chapter_X2:hover{
+	background-color: rgba(225, 193, 110, 0.5);
+	color: rgba(165, 42, 42, 0.75);
+}
+.Chapter_X3{
+	position: absolute;
+	background-color: #6F4E37;
+	color: #EADDCA;
+	display: block;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Didact Gothic;
+  left: 57px;
+  top: 343px;
+  width: 417px;
+  height: 70px;
+  transition-duration: 0.4s;
+}
+.Chapter_X3:hover{
+	background-color: rgba(225, 193, 110, 0.5);
+	color: rgba(165, 42, 42, 0.75);
+}
+.Chapter_X4{
+	position: absolute;
+	background-color: #6F4E37;
+	color: #EADDCA;
+	display: block;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Didact Gothic;
+  left: 57px;
+  top: 436px;
+  width: 417px;
+  height: 70px;
+  transition-duration: 0.4s;
+}
+.Chapter_X4:hover{
+	background-color: rgba(225, 193, 110, 0.5);
+	color: rgba(165, 42, 42, 0.75);
+}
+.Chapter_X5{
+	position: absolute;
+	background-color: #6F4E37;
+	color: #EADDCA;
+	display: block;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Didact Gothic;
+  left: 57px;
+  top: 529px;
+  width: 417px;
+  height: 70px;
+  transition-duration: 0.4s;
+}
+.Chapter_X5:hover{
+	background-color: rgba(225, 193, 110, 0.5);
+	color: rgba(165, 42, 42, 0.75);
+}
+#How_To_Play{
+	position: absolute;
+	left: 92px;
+	display: inline;
+	color: #6F4E37;
+	text-align: center;
+	font-family: Cinzel;
+	font-size: 50px;
+}
+#How_To_Play_des{
+	position: absolute;
+	text-align: center;
+	color: #6F4E37;
+	font-family: Cinzel;
+	font-size: 21px;
+	margin-left: 62px;
+	margin-right: 62px;
+}
+#REGISTER{
+	position: absolute;
+	left: 150px;
+	display: inline;
+	color: #6F4E37;
+	text-decoration: underline;
+	text-underline-position: under;
+	text-align: center;
+	font-family: Cinzel;
+	font-size: 50px;
+}
+#UsernameLabel{
+	position: absolute;
+	left: 60px;
+	top: 175px;
+	text-align: center;
+	color: #6F4E37;
+	font-family: Poppins;
+	font-weight: 600;
+	font-size: 25px;
+}
+#UsernameBox{
+	position: absolute;
+	text-align: left;
+	left: 60px;
+	top: 225px;
+	width: 400px;
+	height: 50px;
+	background-color: rgba(111, 78, 55, 0.5);
+	color: #EADDCA;
+	border: solid;
+	border-radius: 10px;
+	border-color: rgba(111, 78, 55, 0.75);
+	font-family: Poppins;
+	font-weight: 200;
+	font-size: 25px;
+}
+#PasswordLabel{
+	position: absolute;
+	left: 60px;
+	top: 325px;
+	text-align: center;
+	color: #6F4E37;
+	font-family: Poppins;
+	font-weight: 600;
+	font-size: 25px;
+}
+#PasswordBox{
+	position: absolute;
+	text-align: left;
+	left: 60px;
+	top: 375px;
+	width: 400px;
+	height: 50px;
+	background-color: rgba(111, 78, 55, 0.5);
+	color: #EADDCA;
+	border: solid;
+	border-radius: 10px;
+	border-color: rgba(111, 78, 55, 0.75);
+	font-family: Poppins;
+	font-weight: 200;
+	font-size: 25px;
+}
+#Final_Submit{
+	position: absolute;
+	background-color: #6F4E37;
+	color: #EADDCA;
+	display: block;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: Poppins;
+  font-weight: 600;
+  left: 117px;
+  top: 500px;
+  width: 296px;
+  height: 70px;
+  transition-duration: 0.4s;
+}
+#Final_Submit:hover{
+	background-color: rgba(225, 193, 110, 0.5);
+	color: rgba(165, 42, 42, 0.75);
+}
+footer{
+	position: absolute;
+	left: 0px;
+	top: 2072px;
+	width: 1920px;
+	height: 96px;
+	background-color: rgba(110, 38, 14, 0.75);
+	text-align: center;
+	color: #F2D2BD;
+	font-family: Cinzel;
+	font-weight: 500;
+	font-size: 25px;
+}
